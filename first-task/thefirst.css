@@ -1,0 +1,205 @@
+body{
+    background-color: #1f212094;
+    
+}
+
+#evan{
+    position: absolute;
+    left: 97px;
+    top: -17px;
+    
+
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    top: 2px;
+    left: 30%; 
+}
+ul li {
+     float: left;
+    width: 90px;
+    padding: 12px;
+    font-size: 17px;
+    width: 153px;
+}
+#dat{
+    top: 164px;
+    left: 236px;
+    position: absolute;
+    border-style: solid;
+    border-color:#04ff00;
+    width: 864px;
+    height: 157px;
+    border-radius: 25px
+    
+}
+#pag{
+    
+     width: 39px;
+    min-width: fit-content;
+    font-size: 120px;
+    position: absolute;
+    top: -107px;
+    left: 40px;   
+}
+#pag2{
+        width: 39px;
+    min-width: fit-content;
+    font-size: 120px;
+    position: absolute;
+    top: -107px;
+    left: 269px;
+}
+#pag3{
+        width: 39px;
+    min-width: fit-content;
+    font-size: 120px;
+    position: absolute;
+    top: -107px;
+    left: 474px;
+}
+#pag4{
+        width: 39px;
+    min-width: fit-content;
+    font-size: 120px;
+    position: absolute;
+    top: -107px;
+    left: 688px;
+}
+#dat ul li{
+    background-color: bisque;
+    
+}
+#dat2 {
+   display: block;
+    font-size: 20px;
+    width: 20px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: -264px;
+    font-size: 33px;
+}
+#main{
+        background-color: aqua;
+    padding: 60px 20px 60px 20px;
+    position: absolute;
+    width: 221px;
+    left: 895px;
+    height: 116px;
+    top: 404px;
+    white-space: pre-wrap;
+    height: 323px;
+}
+#wel{
+background-color: #979bbb;
+    padding: 2px;
+    top: 461px;
+    left: 53px;
+    position: absolute;      
+}
+#sin{
+        position: absolute;
+    top: -4px;
+    left: 21px;
+    font-size: 22px;
+    word-spacing: 8px;
+}
+#fo{
+ position: absolute;
+    top: 467px;
+    left: 875px;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    background-color: white;
+    border-radius: 20px;
+}
+#in{
+      background-color:azure;
+    width: 295px;
+    height: 40px;
+    display: block;
+    margin: 10px;
+    border-radius: 9px;
+    text-align: center;
+}
+#in1{
+        background-color:#04ff00;
+    width: 295px;
+    height: 40px;
+    display: block;
+    margin: 10px;
+    border-radius: 9px;
+    font-size: 30px;
+}
+#wel{
+ left: 1px;
+    top: 607px;
+    background: white;
+    width: 100%;
+    height: 50%;  
+}
+#saeed{
+width: 293px;
+    height: 30px;
+    position: absolute;
+    left: 140px;
+    top: -13px;
+}
+.rating {
+  float: left;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 28px;
+  margin-top: -11px;
+  color: #e8d04c;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 0.7em;
+  cursor: pointer;
+}
+.rating > span:hover:before;
+.rating > span:hover ~ span:before;
+.rating > span.rated:before;
+.rating > span.rated ~ span:before {
+  content: "\2605";
+  position: absolute;
+}
+        .star{
+          color: goldenrod;
+          font-size: 2.0rem;
+          padding: 0 1rem; /* space out the stars */
+        }
+        .star::before{
+          content: '\2606';    /* star outline */
+          cursor: pointer;
+        }
+        .star.rated::before{
+          /* the style for a selected star */
+          content: '\2605';  /* filled star */
+        }
+        
+        .stars{
+            counter-reset: rateme 0;   
+            font-size: 2.0rem;
+            font-weight: 900;
+        }
+        .star.rated{
+            counter-increment: rateme 1;
+        }
+        .stars::after{
+            content: counter(rateme) ;}
+            
+            .stars{
+                position: absolute;
+                top: 400px;
+                background-color: white;
+                padding: 20px;
+                border-radius: 6px;
+            }        
